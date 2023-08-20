@@ -172,7 +172,8 @@ p{
   opacity: 0.5;
 }
 
-.btn{
+.btn {
+  /* Existing styles */
   margin-top: 20px;
   margin-left: 45px;
   margin-right: 45px;
@@ -183,7 +184,14 @@ p{
   font-weight: 700;
   border: 0px solid;
   background-color: var(--dark-grey-blue);
+  transition: background-color 0.3s; /* Add a transition for smooth color change */
 }
+
+.btn:hover {
+  background-color: #593CF9;
+  cursor: pointer;
+}
+
 
 
 @media (max-width: 768px) {
